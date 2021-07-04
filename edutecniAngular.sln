@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edutecniAngular", "edutecniAngular\edutecniAngular.csproj", "{CAE67965-1253-4288-B413-C129B6CC94FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "edutecniAngular", "edutecniAngular\edutecniAngular.csproj", "{CAE67965-1253-4288-B413-C129B6CC94FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web", "1-Web", "{9DD296C0-A969-4F20-8C4C-51E84E795018}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{FCBDE8D1-1226-459A-B53D-43D9DED1F319}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{36E989F8-4B1E-4600-B0A8-F9016C09675A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{7BFE2853-79EF-40E6-8D59-C8100AF48507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edutecniAngular.Application", "edutecniAngular.Application\edutecniAngular.Application.csproj", "{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edutecniAngular.Domain", "edutecniAngular.Domain\edutecniAngular.Domain.csproj", "{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-1-Data", "4-1-Data", "{E95AB025-E0BD-49DA-B0E9-39148F54B2EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-2-Crosscutting", "4-2-Crosscutting", "{0CB318FA-7E1F-4253-A134-74BF910052AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "edutecniAngular.Data", "edutecniAngular.Data\edutecniAngular.Data.csproj", "{33888365-910A-481A-AED5-27F3ED16F7B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +33,29 @@ Global
 		{CAE67965-1253-4288-B413-C129B6CC94FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAE67965-1253-4288-B413-C129B6CC94FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAE67965-1253-4288-B413-C129B6CC94FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33888365-910A-481A-AED5-27F3ED16F7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33888365-910A-481A-AED5-27F3ED16F7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33888365-910A-481A-AED5-27F3ED16F7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33888365-910A-481A-AED5-27F3ED16F7B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAE67965-1253-4288-B413-C129B6CC94FC} = {9DD296C0-A969-4F20-8C4C-51E84E795018}
+		{ADE7D554-8A7D-492C-8B3E-CF64B9ED94E7} = {FCBDE8D1-1226-459A-B53D-43D9DED1F319}
+		{5CFE1BA1-0F9E-476C-A25E-DECA26AFD88F} = {36E989F8-4B1E-4600-B0A8-F9016C09675A}
+		{E95AB025-E0BD-49DA-B0E9-39148F54B2EB} = {7BFE2853-79EF-40E6-8D59-C8100AF48507}
+		{0CB318FA-7E1F-4253-A134-74BF910052AD} = {7BFE2853-79EF-40E6-8D59-C8100AF48507}
+		{33888365-910A-481A-AED5-27F3ED16F7B8} = {E95AB025-E0BD-49DA-B0E9-39148F54B2EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CAE8AE70-B548-4834-874F-B5D08A771FF5}
